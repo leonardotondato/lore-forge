@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.feat-page {
+    padding-bottom: 50px;
+}
+
+.feat-block-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+}
+
+.display-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: var(--dirty-bright);
+    width: 90%;
+    border-radius: 20px;
+    margin: 40px 0;
+
+    overflow: hidden;
+}
+
+.block-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px 0;
+
+    background-color: var(--forge-opaque);
+    width: 45%;
+}
+
+.block-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--darkest);
+    width: 55%;
+}
+
+.block-title {
+    
+}
+
+.block-img {
+    border: 1px solid black;
+    width: 95%;
+    height: 300px;
+}
+
+.desc-txt {
+    
+}
+
+.wiki-img {
+    /* colocar um background-image de um 'print' da tela de wiki para depois definir o tamanho geral */
+}
